@@ -29,6 +29,7 @@ function displayImage(img) {
   let image = document.getElementById('professionalImage');
   image.src = `data:image/png;base64, ${img}`;
 }
+
 function displayPrimaryDescription(data) {
   let nameLink = document.getElementById('nameLink');
   nameLink.innerHTML = data.nameLink.firstName;
